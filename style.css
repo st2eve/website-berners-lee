@@ -49,3 +49,110 @@ table {
 
 /* -- Reset css -- Reset css -- Reset css -- Reset css -- Reset css -- Reset css -- Reset css -- Reset css -- Reset css -- */
 
+body {
+    background-color: #ebebeb;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+section {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 2%;
+    text-align: justify;
+    padding: 2%;
+    line-height: 200%;
+}
+img {
+    float: left;
+    width: 40%;
+    height: 40%;
+}
+h1 {
+    font-size: 3.5vw;
+    color: #dd5555;
+    font-weight: 900;
+}
+h2 {
+    font-size: 3vw;
+}
+h1,h2 {
+    text-align: center;
+}
+article {
+    display: inline-block;
+    color: #979696;
+}
+.bold {
+    font-weight: bolder;
+}
+a {
+    margin-top: 2%;
+    margin-left: 37%;
+    text-decoration: none;
+    color: #979696;
+}
+#wiki input {
+    margin-top: 2%;
+    width: 30%;
+    padding: 3%;
+    font-size: 1.5vw;
+    background-color: #dd5555;
+    border-radius: 2%;
+    border-color: #dd5555;
+    color: white;
+    text-overflow: ellipsis;
+}
+h1,h2,h3,img {
+    margin-bottom: 5%;
+}
+h3 {
+    font-size: 2vw;
+    font-weight: bold;
+}
+li {
+    display: inline-block;
+    color: #979696;
+    font-size: 1.5vw;
+    position: relative;
+    left: 21%;
+    margin-left: 5%;
+}
+.fa-brands {
+    display: var(--fa-display,block);
+    font-size: 2.5vw;
+    margin-left: 35%;
+}
+.fa-facebook-f {
+    margin-left: 40%;
+}
+article p {
+    margin-left: 45%;
+}
+#movies h2 {
+    font-size: 2vw;
+    font-weight: bold;
+}
+p,h2 {
+    color: #979696;
+}
+#space {
+    margin-left: 50%;
+}
+#hulot {
+    margin-left: 55%;
+}
+#alien {
+    margin-left: 67%;
+}
+li a {
+    margin-left: 3%;
+}
+#berners {
+    border: 5px solid #979696;
+    border-radius: 50%;
+    float: none;
+    position: relative;
+    left: 30%;
+}
+

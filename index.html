@@ -2,16 +2,17 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
-        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,800;1,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/dbd683aa47.js" crossorigin="anonymous"></script>
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <section>
-            <img src="images/tim_berners_lee.jpg" alt="Tim Berners-Lee photo">
+            <img id="berners" src="images/tim_berners_lee.jpg" alt="Tim Berners-Lee photo">
             <h1>
                 Tim Berners-Lee
             </h1>
@@ -19,35 +20,35 @@
                 Inventor of HTML
             </h2>
             <p>
-                Tim Berners-Lee is the inventor of the Web. In 1989, Tim was working in a computing services of CERN when he came up with the concept; at the time he had no idea that it would be implemented on such an enormous scale.
+                Tim Berners-Lee is the <span class="bold">inventor</span> of the Web. In 1989, Tim was working in a computing services of CERN when he came up with the concept; at the time he had no idea that it would be implemented on such an <span class="bold">enormous scale.</span>
             </p>
+            <a id="wiki" href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">
+                <input type="button" value="See for yourself">
+            </a>
         </section>
         <section>
-            <h3>
-                See for yourself
-            </h3>
             <ul>
                 <li>
                     <i class="fa-brands fa-facebook-f"></i>
-                    Facebook
+                    <a href="https://twitter.com/timberners_lee" target="_blank">Facebook</a>
                 </li>
                 <li>
                     <i class="fa-brands fa-linkedin-in"></i>
-                    Linkedin
+                    <a href="https://www.linkedin.com/pulse/sir-tim-berners-lee-andrew-maltzoff/" target="_blank">Linkedin</a>
                 </li>
                 <li>
                     <i class="fa-brands fa-twitter"></i>
-                    Twitter
+                    <a href="https://twitter.com/timberners_lee" target="_blank">Twitter</a>
                 </li>
             </ul>
         </section>
-        <section>
+        <section id="movies">
             <h2>
                 His Favorite movies
             </h2>
             <article>
                 <img src="images/space_odyssey.jpg" alt="affiche space odyssey">
-                <h3>
+                <h3 id="space">
                     2001 - Space Odyssey
                 </h3>
                 <p>
@@ -56,7 +57,7 @@
             </article>
             <article>
                 <img src="images/mister_hulot.jpg" alt="affiche mister hulot">
-                <h3>
+                <h3 id="hulot">
                     Monsieur Hulot
                 </h3>
                 <p>
@@ -65,7 +66,7 @@
             </article>
             <article>
                 <img src="images/alien.jpg" alt="affiche alien">
-                <h3>
+                <h3 id="alien">
                     Alien
                 </h3>
                 <p>
