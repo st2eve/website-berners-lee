@@ -127,7 +127,7 @@ li {
     margin-left: 40%;
 }
 article p {
-    margin-left: 45%;
+    margin-left: 25%;
 }
 #movies h2 {
     font-size: 2vw;
@@ -137,13 +137,13 @@ p,h2 {
     color: #979696;
 }
 #space {
-    margin-left: 50%;
+    margin-left: 40%;
 }
 #hulot {
-    margin-left: 55%;
+    margin-left: 46%;
 }
 #alien {
-    margin-left: 67%;
+    margin-left: 57%;
 }
 li a {
     margin-left: 3%;
@@ -153,6 +153,6 @@ li a {
     border-radius: 50%;
     float: none;
     position: relative;
-    left: 40%;
+    left: 39%;
 }
 
