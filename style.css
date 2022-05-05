@@ -167,8 +167,9 @@ section {
     margin: 15px auto;
     background-color: white;
     text-align: justify;
-    border: 1px solid grey;
     border-radius: 3px;
+    border: 1px solid white;
+    border-bottom: 1px solid #d9d3d3;
 }
 img {
     width: 100px;
